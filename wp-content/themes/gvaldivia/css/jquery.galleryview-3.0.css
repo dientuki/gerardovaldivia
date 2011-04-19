@@ -35,9 +35,28 @@
 
 */
 
+.no-js #galleryview {
+	width: 899px;
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.no-js #galleryview span {
+	display: none;
+	visibility: hidden;
+}
+
+#galleryview {
+	width: 899px;
+	height: 500px;
+	margin: 0 auto;
+}
+
 /* GALLERY LIST */
 /* IMPORTANT - Change '#myGallery' to the ID of your gallery list to prevent a flash of unstyled content */
-#myGallery { visibility: hidden; }
+#galleryview { visibility: hidden; }
 
 /* GALLERY CONTAINER */
 .gv-gallery { overflow: hidden; }
