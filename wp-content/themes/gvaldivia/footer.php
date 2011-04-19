@@ -12,7 +12,8 @@
 
 <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
 <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.timers-1.2.js" type="text/javascript"></script>
-<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.galleryview-2.1.1-pack.js" type="text/javascript"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.galleryview-3.0.min.js" type="text/javascript"></script>
 
 <script src="<?php bloginfo( 'template_url' ); ?>/js/script.js" type="text/javascript" defer="defer"></script>
 
