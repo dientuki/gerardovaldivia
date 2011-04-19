@@ -1,0 +1,7 @@
+#ie8 #last-works li {
+	margin: 0 9px;
+}
+
+.ie div.thumbnail div{
+	background: url(../images/thumbnail-caption.png);
+}
