@@ -212,3 +212,26 @@ div.thumbnail div{
 .page h2 {
 	margin-bottom: 27px;
 }
+
+#nav-below {
+   color: #333333;
+    font-size: 1.8em;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    word-spacing: 0.05em;	
+}
+
+#nav-below .nav-previous {
+	float:left;
+}
+#nav-below .nav-next {
+	float:right;
+}
+
+#nav-below a {
+	font-family: 'Georgia';
+	color: #333;
+	font-size: .85em;
+    font-weight: normal;
+    letter-spacing: 0em;
+}
