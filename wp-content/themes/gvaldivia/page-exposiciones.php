@@ -29,6 +29,6 @@
 	<?php endwhile; ?>
 <?php endif; ?>
 </div>
-<?php get_pager(); ?>
+<?php include dirname(__FILE__) . '/pagination-expo.php';?>
 
 <?php get_footer(); ?>
