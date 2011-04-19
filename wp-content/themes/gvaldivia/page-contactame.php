@@ -17,7 +17,7 @@
 			<input type="text" id="form[Email]" name="form[Email]" value="" class="required" />				
 		</li>
 		<li>
-			<label for="form[Phone]"><strong class="required">*</strong>Telefóno:</label>
+			<label for="form[Phone]">Telefóno:</label>
 			<input type="text" id="form[Phone]" name="form[Phone]" value="" class="required" />			
 		</li>
 		<li class="textarea">
