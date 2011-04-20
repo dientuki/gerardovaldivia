@@ -5,11 +5,11 @@
 <?php the_post(); ?>
 <h1><?php the_title(); ?></h1>
 
-<form id="contact-form" class="alignleft" method="post" action="mail">
+<form id="contact-form" class="alignleft form" method="post" action="mail">
 	<input type="hidden" name="referer" value="<?php the_permalink(); ?>" />
 	<ul>
 		<li>
-			<label for="form[Name]"><strong class="required">*</strong>Nombre:</strong></label>
+			<label for="form[Name]"><strong class="required">*</strong>Nombre:</label>
 			<input type="text" id="form[Name]" name="form[Name]" value="" class="required" />		
 		</li>
 		<li>

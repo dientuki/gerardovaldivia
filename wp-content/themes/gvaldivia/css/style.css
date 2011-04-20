@@ -202,11 +202,12 @@ div.thumbnail div{
 }
 
 #contact-form {
-	margin-left: 50px;
+	margin-left: 70px;
 }
 
-#contact-form ul {
+form ul {
 	list-style: none;
+	margin: 0;
 }
 
 form strong.required {
@@ -254,6 +255,7 @@ form li.submit {
 
 form input.submit {
 	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
 	border-radius: 15px;
 	background: #f2f2f2;
 	height: 25px;
@@ -261,13 +263,37 @@ form input.submit {
 	float: none;
 }
 
-#contact-form textarea {
+form textarea {
 	height: 100px;
 }
 
-#contact-form li.textarea {
+form li.textarea {
 	height: 110px;
 }
+
+#comment-form {
+	padding: 0 12px;
+}
+
+#comment-form textarea{
+	width: 564px;
+}
+
+#comment-form li label,
+#comment-form li input,
+#comment-form li em{
+	float:left;
+} 
+
+#comment-form li.submit input.submit {
+	float:none;
+}
+
+#comment-form li label {
+	width: 100px;
+}
+
+#comment-form li input {margin-right: 5px;}
 
 .contact-data {
 	position: relative;
