@@ -1,0 +1,331 @@
+html {
+	background: #fafafa;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
+#main {
+	margin-top:50px;
+	width: 978px;
+}
+
+header {
+	height: 85px;
+	background: #f2f2f2;
+}
+
+header li:first-child {
+	margin-left: 0 !important;
+}
+
+header li:last-child {
+	margin-right: 0 !important;
+}
+
+h2 {
+    padding-left: 12px;	
+}
+
+#logo {
+	background: url(../images/logo.png) no-repeat;
+	width: 290px;
+	height: 66px;
+	position: absolute;
+	top:9px;
+	left:19px;
+	}
+	
+#logo a {display: block; height: 100%; width: 100%; outline: none;}
+
+
+#primary-menu {
+	position: absolute;
+    right: 130px;
+    top: 5px;
+	height: 26px;
+	list-style: none;
+	margin: 0;
+}
+
+#primary-menu span {
+	display: block;
+	width: 26px;
+	height: 29px;
+	float: left;
+}
+
+#primary-menu #menu-item-14 span {
+	background: url(../images/home.png) no-repeat left center;
+	width: 26px;	
+}
+
+#primary-menu #menu-item-16 span{
+	background: url(../images/contact-me.png) no-repeat left center;
+	width: 26px;
+	margin-top: 2px;
+}
+
+#primary-menu #menu-item-15 span{
+	background: url(../images/email-me.png) no-repeat left center;
+	width: 26px;
+	margin-top: 3px;
+}
+
+#primary-menu li {
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	margin: 0 21px;
+}
+
+#primary-menu li a {
+	height: 26px;
+	line-height: 26px;
+	width: 100%;
+	display: block;	
+}
+
+#secondary-menu {
+	position: absolute;
+	right: 0px;
+    top: 50px;
+    width: 450px !important;
+}
+
+#secondary-menu li {
+	float: left;
+	margin: 0 30px;
+}
+
+#secondary-menu li:hover ul {
+	display: block;
+	visibility: visible;
+}
+
+#secondary-menu .sub-menu {
+	
+	display: none;
+	visibility: hidden;
+	
+	width: 110px;
+	position: absolute;
+	top:17px;
+	z-index: 5;
+	background: #F2F2F2;
+	padding-top:8px;
+	padding-bottom: 5px;
+	left: -10px;
+	}
+
+#secondary-menu .sub-menu li {
+	float: none;
+	margin: 0;
+	padding: 6px 10px 6px 15px;
+}
+
+#follow-me {
+	list-style: none;
+	position: absolute;
+    right: 22px;
+    top: 7px;
+}
+
+#follow-me li{
+	float: left;
+	width: 28px;
+	height: 28px;
+	margin-right: 3px
+}
+
+#follow-me li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#follow-me li.facebook a{
+	background: url(../images/icon-facebook.png) no-repeat;
+}
+
+#follow-me li.rss a{
+	background: url(../images/icon-rss.png) no-repeat;
+}
+
+div.thumbnail div{
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	display:none;
+	padding-left: 10px;
+	
+	/* for IE */
+	/* filter:alpha(opacity=50); */
+	/* CSS3 standard */
+	/* opacity:0.5; */
+}
+
+#news .thumbnail {
+	background: url(../images/bg-featured-thumbnail.png) no-repeat;
+	width: 385px;
+	height: 280px;
+	padding: 2px 11px 20px 11px;
+}
+
+#news .thumbnail {
+	width: 385px;
+}
+
+.featured_thumbnail div {
+	width: 375px;
+    bottom: 20px;
+    height: 50px;
+}
+
+#last-works .thumbnail {
+	background: url(../images/bg-home-thumbnail.png) no-repeat;
+	height: 210px;
+	padding: 1px 8px 15px 8px;
+}
+
+#last-works .thumbnail {
+	width: 290px;
+}
+
+.home_thumbnail div {
+	width: 280px;
+	bottom: 15px;
+    height: 36px;
+}
+
+#contact-form {
+	margin-left: 70px;
+}
+
+form ul {
+	list-style: none;
+	margin: 0;
+}
+
+form strong.required {
+	float: left;
+	margin-right: 5px;
+	color: red;
+}
+
+form li,
+form label {
+	height: 30px;
+	line-height: 30px;
+}
+
+form li {
+	margin-bottom: 15px;
+}
+
+form li.textarea label {
+	line-height: 1em;
+	margin-top: 5px;
+}
+
+form label {
+	float: left;
+	width: 100px;
+	color: #000;
+}
+
+form input,
+form textarea {
+	float: right;
+	border: solid 1px #aaa;
+	width: 200px;
+	margin-top: 5px;
+	height: 20px;
+	padding: 1px 5px;
+	color: #000;
+	
+}
+
+form li.submit {
+	text-align: center;
+}
+
+form input.submit {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background: #f2f2f2;
+	height: 25px;
+	width: 100px;
+	float: none;
+}
+
+form textarea {
+	height: 100px;
+}
+
+form li.textarea {
+	height: 110px;
+}
+
+#comment-form {
+	padding: 0 12px;
+}
+
+#comment-form textarea{
+	width: 564px;
+}
+
+#comment-form li label,
+#comment-form li input,
+#comment-form li em{
+	float:left;
+} 
+
+#comment-form li.submit input.submit {
+	float:none;
+}
+
+#comment-form li label {
+	width: 100px;
+}
+
+#comment-form li input {margin-right: 5px;}
+
+.contact-data {
+	position: relative;
+	width: 343px;
+	margin-right: 50px;
+}
+
+footer {
+	margin: 90px 0 20px 0;
+	position: relative;
+}
+
+footer a {
+	padding: 0 3px;
+	display: block;
+	height: 100%;
+	width: 100%;	
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li {
+	float: left;
+	margin: 0 3px;
+}
+
+footer li:first-child {
+	margin-left: 0;
+}
+
+footer li:first-child a {
+	padding-left: 0;
+}
