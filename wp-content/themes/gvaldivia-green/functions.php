@@ -1,11 +1,11 @@
 <?php 
 
-add_action( 'after_setup_theme', 'gvaldivia_setup' );
+add_action( 'after_setup_theme', 'gvaldivia_green' );
 
-if ( ! function_exists( 'gvaldivia_setup' ) ):
+if ( ! function_exists( 'gvaldivia_green' ) ):
 
-	function gvaldivia_setup() {
-
+	function gvaldivia_green() {
+		
 		// This theme styles the visual editor with editor-style.css to match the theme style.
 		add_editor_style();
 				
@@ -22,7 +22,6 @@ if ( ! function_exists( 'gvaldivia_setup' ) ):
 		}
 		add_filter('request', 'myfeed_request');
 		
-		
 		// This theme uses wp_nav_menu().
 		if (function_exists('register_nav_menus')) {
 			register_nav_menus( array(
@@ -31,7 +30,7 @@ if ( ! function_exists( 'gvaldivia_setup' ) ):
 				'footer' => 'Footer Navigation',
 			) );	
 		}
-
+		
 		if (function_exists('add_image_size')){
 			add_image_size('home_thumbnail', '290', '210', true);
 			add_image_size('obra_thumbnail', '325', '235', true);

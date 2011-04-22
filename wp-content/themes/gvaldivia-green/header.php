@@ -72,6 +72,7 @@
 			</ul>
 			
 		</div>
+		<div class="gradient"></div>
 	</header>
 
 	<div id="main" class="wrapper">

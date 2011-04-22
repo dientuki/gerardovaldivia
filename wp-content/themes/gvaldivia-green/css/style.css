@@ -1,5 +1,7 @@
 html {
 	background: #fafafa;
+	background: #F2FaF2;
+	background: #EDF8ED;
 }
 
 .wrapper {
@@ -17,6 +19,21 @@ html {
 header {
 	height: 85px;
 	background: #f2f2f2;
+	background: #E7F5E6;
+}
+
+header .gradient {
+	height: 5px;
+
+  background-color: #E7F5E6;
+  background-image: -moz-linear-gradient(top, #E7F5E6, #EDF8ED); 
+  background-image: -ms-linear-gradient(top, #E7F5E6, #EDF8ED); 
+  background-image: -o-linear-gradient(top, #E7F5E6, #EDF8ED); 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E7F5E6), to(#EDF8ED)); 
+  background-image: -webkit-linear-gradient(top, #E7F5E6, #EDF8ED); 
+  background-image: linear-gradient(top, #E7F5E6, #EDF8ED);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#E7F5E6', EndColorStr='#EDF8ED'); 
+	
 }
 
 header li:first-child {
