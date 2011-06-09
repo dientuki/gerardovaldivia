@@ -42,13 +42,10 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-
  
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/styles.css.php" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/jquery.fancybox-1.3.4.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/css/jquery.galleryview-3.0.css" />
-<?php //Uncomment if you are specifically targeting less enabled mobile browsers ?>
-<link rel="stylesheet" media="handheld" href="<?php bloginfo( 'template_url' ); ?>/css/handheld.css">
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
@@ -56,7 +53,7 @@
 
 <?php wp_head(); ?>
 
-<script src="<?php bloginfo( 'template_url' ); ?>/js/modernizr-1.6.min.js"></script>
+<script src="<?php bloginfo( 'template_url' ); ?>/js/head.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>

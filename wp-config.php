@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'dientuki_gerardo');
+define('DB_NAME', 'gvaldivia_blog');
 
 /** MySQL database username */
-define('DB_USER', 'dientuki');
+define('DB_USER', 'gvaldivia');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'magoya');
+define('DB_PASSWORD', 'gerardo');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -69,7 +69,7 @@ $table_prefix  = 'wp_';
  * de.mo to wp-content/languages and set WPLANG to 'de' to enable German
  * language support.
  */
-define ('WPLANG', '');
+define ('WPLANG', 'es_ES');
 
 /**
  * For developers: WordPress debugging mode.
@@ -79,6 +79,7 @@ define ('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+define("WP_CACHE", true);
 
 /* That's all, stop editing! Happy blogging. */
 
