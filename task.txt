@@ -1,0 +1,5 @@
+fw y tw, agregar los botones de compartir
+hacer el sprite css
+arreglar el formulario de conctacto
+agregar el plugin de twitter
+hacer que publique en facebook
